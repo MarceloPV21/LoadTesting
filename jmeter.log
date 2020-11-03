@@ -1,0 +1,135 @@
+2020-11-02 15:04:56,444 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-11-02 15:04:56,466 INFO o.a.j.JMeter: Loading user properties from: C:\Users\marce\Tools\apache-jmeter-5.3\bin\user.properties
+2020-11-02 15:04:56,510 INFO o.a.j.JMeter: Loading system properties from: C:\Users\marce\Tools\apache-jmeter-5.3\bin\system.properties
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: Copyright (c) 1998-2020 The Apache Software Foundation
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: Version 5.3
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: java.version=1.8.0_211
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: os.name=Windows 10
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: os.arch=amd64
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: os.version=10.0
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: file.encoding=Cp1252
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: java.awt.headless=true
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-11-02 15:04:56,545 INFO o.a.j.JMeter: Available Processors =4
+2020-11-02 15:04:56,546 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-11-02 15:04:56,546 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-11-02 15:04:56,546 INFO o.a.j.JMeter: JMeterHome=C:\Users\marce\Tools\apache-jmeter-5.3
+2020-11-02 15:04:56,546 INFO o.a.j.JMeter: user.dir  =C:\Users\marce\Tools\apache-jmeter-5.3\Projects
+2020-11-02 15:04:56,546 INFO o.a.j.JMeter: PWD       =C:\Users\marce\Tools\apache-jmeter-5.3\Projects
+2020-11-02 15:04:56,559 INFO o.a.j.JMeter: IP: 10.0.0.105 Name: LAPTOP-TNHCAIDD FullName: 10.0.0.105
+2020-11-02 15:04:56,563 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\marce\Tools\apache-jmeter-5.3\Projects\html\Login'
+2020-11-02 15:04:56,564 INFO o.a.j.s.FileServer: Default base='C:\Users\marce\Tools\apache-jmeter-5.3\Projects'
+2020-11-02 15:04:56,570 INFO o.a.j.s.FileServer: Set new base='C:\Users\marce\Tools\apache-jmeter-5.3\Projects'
+2020-11-02 15:04:56,788 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-11-02 15:04:56,862 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-11-02 15:04:56,868 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-11-02 15:04:56,873 INFO o.a.j.s.SaveService: Loading file: LoginSite.jmx
+2020-11-02 15:04:56,940 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2020-11-02 15:04:56,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-02 15:04:56,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-02 15:04:56,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-02 15:04:56,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-02 15:04:56,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-11-02 15:04:56,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-11-02 15:04:57,575 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-11-02 15:04:57,575 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file C:\Users\marce\Tools\apache-jmeter-5.3\bin\proxyserver.jks
+2020-11-02 15:04:57,605 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-11-02 15:04:57,611 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2020-11-02 15:04:57,611 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: csv\Login
+2020-11-02 15:04:57,611 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: C:\Users\marce\Tools\apache-jmeter-5.3\bin\reportgenerator.properties
+2020-11-02 15:04:57,612 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2020-11-02 15:04:57,618 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2020-11-02 15:04:57,622 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2020-11-02 15:04:57,622 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2020-11-02 15:04:57,622 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2020-11-02 15:04:57,622 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2020-11-02 15:04:57,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2020-11-02 15:04:57,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2020-11-02 15:04:57,623 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2020-11-02 15:04:57,628 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,628 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,629 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,629 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,629 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,629 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,629 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,629 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,630 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,631 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2020-11-02 15:04:57,633 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2020-11-02 15:04:57,633 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2020-11-02 15:04:57,633 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2020-11-02 15:04:57,633 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2020-11-02 15:04:57,634 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2020-11-02 15:04:57,634 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2020-11-02 15:04:57,648 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-11-02 15:04:57,649 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-02 15:04:57,649 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-11-02 15:04:57,654 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-11-02 15:04:57,654 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-11-02 15:04:58,055 INFO o.a.j.JMeter: Running test (1604343898055)
+2020-11-02 15:04:58,096 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Validating Login
+2020-11-02 15:04:58,096 INFO o.a.j.e.StandardJMeterEngine: Starting 50 threads for group Validating Login.
+2020-11-02 15:04:58,096 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-11-02 15:04:58,096 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=50 ramp-up=1 delayedStart=false
+2020-11-02 15:04:58,117 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-11-02 15:04:58,119 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-11-02 15:04:58,119 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-11-02 15:04:58,119 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-11-02 15:04:58,123 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-1
+2020-11-02 15:04:58,149 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-11-02 15:04:58,149 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-11-02 15:04:58,162 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-TNHCAIDD
+2020-11-02 15:04:58,171 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-2
+2020-11-02 15:04:58,172 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2020-11-02 15:04:58,204 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-3
+2020-11-02 15:04:58,206 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-4
+2020-11-02 15:04:58,229 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-5
+2020-11-02 15:04:58,243 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-6
+2020-11-02 15:04:58,262 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-7
+2020-11-02 15:04:58,294 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-8
+2020-11-02 15:04:58,311 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-9
+2020-11-02 15:04:58,322 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-10
+2020-11-02 15:04:58,341 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-11
+2020-11-02 15:04:58,360 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-12
+2020-11-02 15:04:58,380 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-13
+2020-11-02 15:04:58,400 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-14
+2020-11-02 15:04:58,412 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-15
+2020-11-02 15:04:58,429 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-16
+2020-11-02 15:04:58,451 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-17
+2020-11-02 15:04:58,470 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-18
+2020-11-02 15:04:58,488 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-19
+2020-11-02 15:04:58,505 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-20
+2020-11-02 15:04:58,525 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-21
+2020-11-02 15:04:58,544 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-22
+2020-11-02 15:04:58,561 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-23
+2020-11-02 15:04:58,582 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-24
+2020-11-02 15:04:58,604 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-25
+2020-11-02 15:04:58,615 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-26
+2020-11-02 15:04:58,634 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-27
+2020-11-02 15:04:58,653 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-28
+2020-11-02 15:04:58,669 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-29
+2020-11-02 15:04:58,706 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-30
+2020-11-02 15:04:58,712 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-31
+2020-11-02 15:04:58,727 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-32
+2020-11-02 15:04:58,795 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-33
+2020-11-02 15:04:58,814 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-34
+2020-11-02 15:04:58,826 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-35
+2020-11-02 15:04:58,849 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-36
+2020-11-02 15:04:58,864 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-37
+2020-11-02 15:04:58,899 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-38
+2020-11-02 15:04:58,918 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-39
+2020-11-02 15:04:58,940 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-40
+2020-11-02 15:04:58,954 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-41
+2020-11-02 15:04:58,971 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-42
+2020-11-02 15:04:58,991 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-43
+2020-11-02 15:04:59,005 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-44
+2020-11-02 15:04:59,027 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-45
+2020-11-02 15:04:59,044 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-46
+2020-11-02 15:04:59,063 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-47
+2020-11-02 15:04:59,080 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-48
+2020-11-02 15:04:59,099 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-49
+2020-11-02 15:04:59,119 INFO o.a.j.t.JMeterThread: Thread started: Validating Login 1-50
+2020-11-02 16:29:17,531 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2020-11-02 16:29:17,542 INFO o.a.j.r.ResultCollector: Shutdown hook ended
